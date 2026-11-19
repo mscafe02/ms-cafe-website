@@ -3,124 +3,137 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MS CAFE - Online Service Centre</title>
+<title>MS CAFE | Government Jobs Portal</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
+*{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial;background:#101010;color:white}
-header{background:#080808;padding:22px;text-align:center;border-bottom:2px solid #d4af37}
-.logo{font-size:32px;color:#e5c45b;font-weight:bold}
-nav{margin-top:15px}
-nav a{color:white;text-decoration:none;margin:10px;font-size:14px}
-.hero{padding:85px 20px;text-align:center;background:linear-gradient(135deg,#111,#382b0d)}
-.hero h1{font-size:42px;color:#e5c45b;margin-bottom:15px}
+header{background:#080808;padding:22px 12px;text-align:center;border-bottom:2px solid #d4af37}
+.logo{font-size:34px;font-weight:bold;color:#e5c45b}
+header p{margin:8px;color:#ddd}
+nav{margin-top:18px;display:flex;justify-content:center;flex-wrap:wrap;gap:16px}
+nav a{color:white;text-decoration:none;font-weight:bold}
+nav a:hover{color:#e5c45b}
+.hero{text-align:center;padding:65px 15px;background:linear-gradient(130deg,#111,#392b0c)}
+.hero h1{color:#e5c45b;font-size:38px;margin-bottom:15px}
 .hero p{line-height:1.8;color:#ddd}
-.btn{display:inline-block;background:#d4af37;color:#111;padding:13px 24px;text-decoration:none;border-radius:5px;margin-top:20px;font-weight:bold}
-section{padding:55px 7%;text-align:center}
-h2{color:#e5c45b;font-size:30px;margin-bottom:15px}
-.subtitle{color:#ccc;margin-bottom:30px}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
-.card{background:#202020;border:1px solid #b99532;border-radius:10px;padding:28px 15px}
-.card:hover{background:#302819}
-.icon{font-size:38px;margin-bottom:15px}
+section{padding:45px 6%;text-align:center}
+h2{color:#e5c45b;margin-bottom:12px;font-size:28px}
+.sub{color:#bbb;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#202020;border:1px solid #9d7c2c;border-radius:10px;padding:20px;text-align:left}
 .card h3{color:#e5c45b;margin-bottom:12px}
-.card p{color:#ccc;font-size:14px;line-height:1.6}
-.about{background:#191919}
-.contact p{margin:15px;color:#ddd}
-footer{background:#080808;padding:25px;text-align:center;border-top:2px solid #d4af37;color:#aaa}
+.card p{color:#bbb;font-size:13px;margin-bottom:12px}
+.card a{display:inline-block;background:#d4af37;color:#111;padding:9px 13px;text-decoration:none;border-radius:5px;font-weight:bold;font-size:13px}
+.card a:hover{background:#f2d778}
+.tag{color:#e5c45b;font-size:12px;margin-bottom:8px}
+#results{background:#191919}
+#contact{background:#111}
+footer{background:#080808;padding:25px;text-align:center;color:#aaa;border-top:2px solid #d4af37}
+footer strong{color:#e5c45b}
 </style>
 </head>
 <body>
 
 <header>
-<div class="logo">☕ MS CAFE</div>
-<p>ONLINE SERVICE CENTRE</p>
+<div class="logo">MS CAFE</div>
+<p>GOVERNMENT JOBS & ONLINE SERVICES</p>
 <nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
+<a href="#home">HOME</a>
+<a href="#jobs">LATEST JOBS</a>
+<a href="#admit">ADMIT CARDS</a>
+<a href="#results">RESULTS</a>
+<a href="#contact">CONTACT</a>
 </nav>
 </header>
 
 <div class="hero" id="home">
 <h1>Welcome to MS CAFE</h1>
-<p>Your Trusted Online Service Centre</p>
-<p>Government Jobs | Online Forms | Digital Services</p>
-<a href="#services" class="btn">Explore Services</a>
+<p>Your Online Government Job Information Centre</p>
+<p>Punjab Jobs | Central Jobs | Railway | Banking | Education</p>
 </div>
 
-<section id="services">
-<h2>Our Online Services</h2>
-<p class="subtitle">All Digital Services Available Here</p>
+<section id="jobs">
+<h2>Latest Government Jobs</h2>
+<p class="sub">Check official recruitment portals and notifications</p>
+<div class="grid">
 
-<div class="services">
+<div class="card"><h3>Punjab PSSSB</h3><p>Punjab Subordinate Services Selection Board</p><a href="https://sssb.punjab.gov.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">📋</div>
-<h3>Government Job Forms</h3>
-<p>Online government job application assistance.</p>
-</div>
+<div class="card"><h3>Punjab PPSC</h3><p>Punjab Public Service Commission</p><a href="https://ppsc.gov.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">🎫</div>
-<h3>Admit Cards</h3>
-<p>Download examination admit cards.</p>
-</div>
+<div class="card"><h3>SSC Recruitment</h3><p>CGL, CHSL, MTS, GD and other exams</p><a href="https://ssc.gov.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">📊</div>
-<h3>Results</h3>
-<p>Check examination results and merit lists.</p>
-</div>
+<div class="card"><h3>UPSC</h3><p>Civil Services and other recruitment</p><a href="https://upsc.gov.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">📝</div>
-<h3>Online Registration</h3>
-<p>Online registration assistance.</p>
-</div>
+<div class="card"><h3>Railway RRB</h3><p>Railway recruitment notifications</p><a href="https://www.rrbcdg.gov.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">🪪</div>
-<h3>PAN Card Services</h3>
-<p>PAN card application assistance.</p>
-</div>
+<div class="card"><h3>Banking IBPS</h3><p>Bank PO, Clerk and other exams</p><a href="https://www.ibps.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">🖨️</div>
-<h3>Printing & Photocopy</h3>
-<p>Printing, scanning and photocopy services.</p>
-</div>
+<div class="card"><h3>SBI Careers</h3><p>State Bank recruitment</p><a href="https://sbi.co.in/web/careers/current-openings" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">🎓</div>
-<h3>Education Forms</h3>
-<p>College admission and examination forms.</p>
-</div>
+<div class="card"><h3>India Post</h3><p>Postal department recruitment</p><a href="https://www.indiapost.gov.in/" target="_blank">Visit Official Site</a></div>
 
-<div class="card">
-<div class="icon">📄</div>
-<h3>Document Services</h3>
-<p>Online document application assistance.</p>
-</div>
+<div class="card"><h3>Punjab Police</h3><p>Punjab Police recruitment information</p><a href="https://www.punjabpolice.gov.in/" target="_blank">Visit Official Site</a></div>
+
+<div class="card"><h3>National Career Service</h3><p>Employment and job opportunities</p><a href="https://www.ncs.gov.in/" target="_blank">Visit Official Site</a></div>
 
 </div>
 </section>
 
-<section class="about" id="about">
-<h2>About MS CAFE</h2>
-<p>MS CAFE provides online form filling assistance, government job applications, admit cards, result checking and digital services.</p>
+<section id="admit">
+<h2>Admit Cards</h2>
+<p class="sub">Official examination and admit card portals</p>
+<div class="grid">
+
+<div class="card"><h3>SSC Admit Cards</h3><p>SSC examination updates</p><a href="https://ssc.gov.in/" target="_blank">Check Admit Card</a></div>
+
+<div class="card"><h3>UPSC Admit Cards</h3><p>UPSC examination information</p><a href="https://upsc.gov.in/" target="_blank">Check Admit Card</a></div>
+
+<div class="card"><h3>Railway Admit Cards</h3><p>RRB examination information</p><a href="https://www.rrbcdg.gov.in/" target="_blank">Check Admit Card</a></div>
+
+<div class="card"><h3>NTA Admit Cards</h3><p>Entrance examination updates</p><a href="https://nta.ac.in/" target="_blank">Check Admit Card</a></div>
+
+<div class="card"><h3>CTET</h3><p>Teacher eligibility examination</p><a href="https://ctet.nic.in/" target="_blank">Check Admit Card</a></div>
+
+<div class="card"><h3>Punjab PSSSB</h3><p>Punjab board examination updates</p><a href="https://sssb.punjab.gov.in/" target="_blank">Check Admit Card</a></div>
+
+</div>
 </section>
 
-<section class="contact" id="contact">
-<h2>Contact Us</h2>
-<p>Need help with an online form?</p>
-<p>Contact MS CAFE for assistance.</p>
-<a class="btn" href="https://wa.me/917707829589">WhatsApp Us</a>
+<section id="results">
+<h2>Latest Results</h2>
+<p class="sub">Check official examination results and merit lists</p>
+<div class="grid">
+
+<div class="card"><h3>SSC Results</h3><p>SSC examination results</p><a href="https://ssc.gov.in/" target="_blank">Check Result</a></div>
+
+<div class="card"><h3>UPSC Results</h3><p>UPSC examination results</p><a href="https://upsc.gov.in/" target="_blank">Check Result</a></div>
+
+<div class="card"><h3>Punjab PPSC Results</h3><p>Punjab recruitment results</p><a href="https://ppsc.gov.in/" target="_blank">Check Result</a></div>
+
+<div class="card"><h3>PSSSB Results</h3><p>Punjab selection board results</p><a href="https://sssb.punjab.gov.in/" target="_blank">Check Result</a></div>
+
+<div class="card"><h3>Railway Results</h3><p>RRB examination results</p><a href="https://www.rrbcdg.gov.in/" target="_blank">Check Result</a></div>
+
+<div class="card"><h3>NTA Results</h3><p>Entrance examination results</p><a href="https://nta.ac.in/" target="_blank">Check Result</a></div>
+
+<div class="card"><h3>IBPS Results</h3><p>Banking examination results</p><a href="https://www.ibps.in/" target="_blank">Check Result</a></div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>MS CAFE Online Services</h2>
+<p class="sub">Need assistance with an online form?</p>
+<p>Government Forms | Admit Cards | Results | Printing</p>
+<p>Contact us for online form filling assistance.</p>
 </section>
 
 <footer>
-<p>© 2026 MS CAFE. All Rights Reserved.</p>
+<strong>MS CAFE</strong>
 <p>Independent Online Service Centre</p>
+<p>Always verify vacancy, eligibility, dates and fees on the official portal.</p>
+<p>© 2026 MS CAFE. All Rights Reserved.</p>
 </footer>
 
 </body>
